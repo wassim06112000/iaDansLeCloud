@@ -1,0 +1,6 @@
+numpy==1.17.3
+scipy
+pandas
+scikit-learn
+unidecode
+xgboost
