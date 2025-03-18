@@ -4,7 +4,6 @@ import os
 import pandas, unidecode, json
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.model_selection import train_test_split, RandomizedSearchCV
-from ll.preprocessing import OneHotEncoder, LabelEncoder
 from sklearn.metrics import accuracy_score
 
 from xgboost import XGBClassifier
